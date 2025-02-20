@@ -1,0 +1,19 @@
+{
+    "Beverage": [
+        {
+            "name": "mora",
+            "price": 5000.0
+        }
+    ],
+    "Appetizer": [
+        {
+            "name": "arroz",
+            "price": 5000.0
+        },
+        {
+            "name": "Jugo de Naranja",
+            "price": 5000.0
+        }
+    ],
+    "MainCourse": []
+}
