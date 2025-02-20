@@ -4,9 +4,9 @@
 - Create an interface in the order class, to create a new menu, aggregate the functions for add, update, delete items. All the menus should be stored as JSON files. (use dicts for this task.)
 
 ## Solución
-1- Para manejar de manera adecuada una cantidad de multiples pedidos se crea la clase OrderFIFO() la cual es capaz de realizar esto y hace uso de una cola FIFO para manejar multiples pedidos.
-2- Luego se crea una named tuple en menu para almacenar los datos del nombre de producto y su precio. Esta named tuple luego se usara en la clase JsonManager() para agregar items al json.
-3- Finalmente se crea una clase llamada JsonManager para tomar los atributos de la clase menu y almacenarlos en un archivo json.
+- Para manejar de manera adecuada una cantidad de multiples pedidos se crea la clase OrderFIFO() la cual es capaz de realizar esto y hace uso de una cola FIFO para manejar multiples pedidos.
+-  Luego se crea una named tuple en menu para almacenar los datos del nombre de producto y su precio. Esta named tuple luego se usara en la clase JsonManager() para agregar items al json.
+- Finalmente se crea una clase llamada JsonManager para tomar los atributos de la clase menu y almacenarlos en un archivo json.
 
 ```python
 from collections import deque, namedtuple
